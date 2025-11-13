@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastmcp-data-viewer"
+version = "0.1.0"
+dependencies = [
+    "fastmcp",
+    "pandas",
+    "pyarrow",
+]
+
+[project.scripts]
+data-viewer = "main:main"
