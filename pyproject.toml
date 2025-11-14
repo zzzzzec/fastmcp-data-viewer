@@ -9,7 +9,11 @@ dependencies = [
     "fastmcp",
     "pandas",
     "pyarrow",
+    "numpy",
 ]
 
 [project.scripts]
-data-viewer = "main:main"
+data-viewer = "fastmcp_data_viewer.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

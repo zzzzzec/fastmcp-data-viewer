@@ -1,0 +1,1 @@
+fastmcp install gemini-cli src/fastmcp_data_viewer/app.py:mcp --with-editable . --name  data-viewer
